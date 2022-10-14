@@ -26,14 +26,6 @@
 
         }
 
-        public string Getinfo()
-        {
-            string message = "FirstName :" + FirstName + "LastName :" + LastName + "Phone number :" + PhoneNumber + "Address :" + Address + "City :" + City + "State :" + State + "Zip code : " + ZipCode + "Email :" + Email;
-
-        
-)
-        
-            return string.Format(firstName, lastName, phoneNumber, address, city, state, zipCode, email);
-        }
+       
     }
 }
