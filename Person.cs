@@ -13,18 +13,18 @@
         public string ZipCode { get; set; }
         public string Email { get; set; }
 
-        public Person(string firstName, string lastName, string phoneNumber, string address, string city, string state, string zipCode, string email)
-        {
-            this.FirstName = firstName;
-            this.LastName = lastName;
-            this.PhoneNumber = phoneNumber;
-            this.Address = address;
-            this.City = city;
-            this.State = state;
-            this.ZipCode = zipCode;
-            this.Email = email;
+        //public Person(string firstName, string lastName, string phoneNumber, string address, string city, string state, string zipCode, string email)
+        //{
+        //    this.FirstName = firstName;
+        //    this.LastName = lastName;
+        //    this.PhoneNumber = phoneNumber;
+        //    this.Address = address;
+        //    this.City = city;
+        //    this.State = state;
+        //    this.ZipCode = zipCode;
+        //    this.Email = email;
 
-        }
+        //}
 
        
     }
