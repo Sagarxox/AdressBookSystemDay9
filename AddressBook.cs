@@ -63,7 +63,7 @@ namespace AddressBookSystem
                             contact.Email = Console.ReadLine();
                             break;
                     }
-                    Console.WriteLine("------- Edited Contact  List --------");
+                    Console.WriteLine( "\t Edited Contact  List ");
                     Display();
                 }
             }
