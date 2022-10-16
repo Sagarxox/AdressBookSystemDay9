@@ -64,10 +64,25 @@ namespace AddressBookSystem
                             break;
                     }
                     Console.WriteLine( "\t Edited Contact  List ");
+                    Console.WriteLine(  "\n ---------------------------------");
                     Display();
                 }
             }
+
         }
 
+        public void DeleteContact(string name)
+        {
+            Contact delete = new Contact();
+            foreach (var contact in list)
+            {
+                if (contact.FirstName == name)
+                {
+                    delete = contact;
+                }
+            }
+            list.Remove(delete);
+        }
     }
+
 }
